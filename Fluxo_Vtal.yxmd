@@ -1,0 +1,538 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>amostra_360.xlsx
+Query=`export$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="base_origem_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="last_update_hp" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="id_hp_survey" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="no_viabilidade_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_estacao_abastecedora_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_tipo_survey_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="hc_max" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="ds_uf_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_municipio_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="nu_id_endereco_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_cod_localidade_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_localidade_abrev_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_cod_logradouro_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_logradouro_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_num_fachada_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_complemento_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_complemento2_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_complemento3_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_cep_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_bairro_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_latitude_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_longitude_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_geocod_municipio" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="diretoria" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="regional" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="gra" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cod_status_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_tipo_rede_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="nu_ucs_residenciais_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="nu_ucs_comerciais_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_nome_cdo_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_celula_name_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_celula_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_celula_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="id_celula_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_rede_interna_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_ums_certificadas_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_rede_edif_cert_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="nu_num_pisos_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_disp_comercial_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_estado_controle_hp" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="ds_data_estado_controle_hp" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="nu_quantidade_hcs" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="ds_projeto_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="rn_dup_hp" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="dt_viabilidade_hp" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="dt_lcto_comercial" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="status_hp" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_ano_censitario" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_setor_censitario" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_hp_geoviz" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="id_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="status_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="id_hc_survey" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_company_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_subscriber_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="grupo_id_hc_gpon" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="id_gpon" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="last_update_hc" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="last_ativacao_ont" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ano_mes_last_ativacao_ont" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="dt_retirada_netwin" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="status_gpon" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="status_iptv" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="status_voip" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="status_banda_larga" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ic_venda" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="velocidade_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_estacao_sigla_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_uf_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_municipio_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_ibge_municipio" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="ds_bairro_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_cep_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_logradouro_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_num_fachada_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_complemento_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_complemento2_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_complemento3_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_celula_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="regiao" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_company_null" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="cd_subscriber_null" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="sistema_origem_os" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="base_origem_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="segmento_hc" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ont_fabricante" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ont_serial" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ont_modelo" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="olt_name" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="olt_modelo" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_placa_modelo" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="no_serie_placa" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_bng" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cdo_name" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="hsi_service_name" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="voip_service_name" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="iptv_service_name" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="tipo_infra" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="prestadora_servico" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="produto" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="dt_solicitacao" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="dt_instalacao" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="dt_retirada" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="ic_aging_hc" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="ic_bsim" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ic_prazo_instalacao_os" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ic_backlog" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ic_obra" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ic_agenda" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ic_campo" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ic_cancelado" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ic_mudanca" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="origem_abertura" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="id_ordem_instalacao" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="id_venda_crm_instalacao" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="nu_ordem_com_instalacao" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="tipo_ordem_instalacao" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="status_ordem_instalacao" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f0_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f1_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f2_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_uf_os" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_municipio_os" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_cep_os" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_logradouro_os" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="nu_fachada_os" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_complemento1_os" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_complemento2_os" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_complemento3_os" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_nrba" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_pendencia_instalacao" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_pendencia_instalacao" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="tipo_pendencia_instalacao" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="in_pronto_execucao_instalacao" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_estado_instalacao" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f3_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f4_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f5_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f6_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f7_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f8_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f9_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f10_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="matricula_tecnico_instalacao" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="numero_agenda" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="observacao_ba" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_WString" />
+            <Field name="id_ordem_obra" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="tipo_ordem_obra" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="status_ordem_obra" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f11_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f12_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f13_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_pendencia_obra" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_pendencia_obra" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="tipo_pendencia_obra" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="in_pronto_execucao_obra" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="ds_estado_obra" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f14_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f15_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f16_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f17_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f18_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f19_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f20_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="matricula_tecnico_obra" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="atividade_obra" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_observacao_tramite_obra" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_observacao_obra" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_motivo_obra" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_motivo_complementar_obra" size="499" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_codigo_viabilidade_obra" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="status_atividade_obra" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f21_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f22_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="id_ordem_retirada" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="id_venda_crm_retirada" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="tipo_ordem_retirada" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="status_ordem_retirada" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f23_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f24_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f25_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_pendencia_retirada" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_pendencia_retirada" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="tipo_pendencia_retirada" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="in_pronto_execucao_retirada" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_estado_retirada" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f26_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f27_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f28_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f29_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f30_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f31_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f32_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="matricula_tecnico_retirada" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="id_ordem_modificacao" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="id_venda_crm_modificacao" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="tipo_ordem_modificacao" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="sub_tipo_ordem" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="status_ordem_modificacao" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f33_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f34_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f35_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="cd_pendencia_modificacao" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="ds_pendencia_modificacao" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="tipo_pendencia_modificacao" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="in_pronto_execucao_modificacao" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="ds_estado_modificacao" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f36_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f37_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f38_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f39_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f40_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f41_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f42_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="matricula_tecnico_modificacao" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="id_ordem_bloqueio" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="tipo_ordem_bloqueio" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="status_ordem_bloqueio" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f43_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f44_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f45_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_pendencia_bloqueio" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_pendencia_bloqueio" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="tipo_pendencia_bloqueio" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="in_pronto_execucao_bloqueio" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="ds_estado_bloqueio" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f46_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f47_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f48_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f49_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f50_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f51_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f52_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="matricula_tecnico_bloqueio" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="id_ordem_desbloqueio" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="tipo_ordem_desbloqueio" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="status_ordem_desbloqueio" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f53_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f54_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f55_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="cd_pendencia_desbloqueio" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="ds_pendencia_desbloqueio" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="tipo_pendencia_desbloqueio" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="in_pronto_execucao_desbloqueio" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="ds_estado_desbloqueio" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f56_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f57_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f58_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f59_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f60_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f61_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="f62_" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="matricula_tecnico_desbloqueio" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="Double" />
+            <Field name="ic_venda_valida" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+            <Field name="f63_" size="255" source="File: C:\Users\Pichau\Downloads\amostra_360.xlsx|||`export$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="174" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">""</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="cd_latitude_hp" selected="True" />
+            <SelectField field="cd_longitude_hp" selected="True" />
+            <SelectField field="tipo_infra" selected="True" />
+            <SelectField field="prestadora_servico" selected="True" />
+            <SelectField field="produto" selected="True" />
+            <SelectField field="dt_solicitacao" selected="True" />
+            <SelectField field="dt_instalacao" selected="True" />
+            <SelectField field="dt_retirada" selected="True" />
+            <SelectField field="ic_aging_hc" selected="True" />
+            <SelectField field="ic_bsim" selected="True" />
+            <SelectField field="ic_prazo_instalacao_os" selected="True" />
+            <SelectField field="ic_backlog" selected="True" />
+            <SelectField field="ic_obra" selected="True" />
+            <SelectField field="ic_agenda" selected="True" />
+            <SelectField field="ic_campo" selected="True" />
+            <SelectField field="ic_cancelado" selected="True" />
+            <SelectField field="ic_mudanca" selected="True" />
+            <SelectField field="origem_abertura" selected="True" />
+            <SelectField field="id_ordem_instalacao" selected="True" type="V_String" size="2147483647" />
+            <SelectField field="id_venda_crm_instalacao" selected="True" />
+            <SelectField field="nu_ordem_com_instalacao" selected="True" type="Double" size="8" />
+            <SelectField field="tipo_ordem_instalacao" selected="True" />
+            <SelectField field="status_ordem_instalacao" selected="True" />
+            <SelectField field="f0_" selected="True" rename="data_hora" type="DateTime" size="19" />
+            <SelectField field="ds_uf_os" selected="True" />
+            <SelectField field="ds_municipio_os" selected="True" />
+            <SelectField field="in_pronto_execucao_instalacao" selected="True" />
+            <SelectField field="ds_estado_instalacao" selected="True" />
+            <SelectField field="matricula_tecnico_instalacao" selected="True" />
+            <SelectField field="ic_venda_valida" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="414" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="id_ordem_instalacao" action="GroupBy" rename="id_ordem_instalacao" />
+            <SummarizeField field="id_ordem_instalacao" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="570" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="id_ordem_instalacao" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="id_ordem_instalacao" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_id_ordem_instalacao" selected="True" rename="Right_id_ordem_instalacao" input="Right_" />
+                <SelectField field="Right_Count" selected="True" rename="contagem_id_distinto" input="Right_" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="870" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\Pichau\Documents\MeusProjetos\PS V.tal\amostra_360_refinada.xlsx|||Planilha1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>amostra_360_refinada.xlsx
+Query=Planilha1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="702" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IIF([matricula_tecnico_instalacao] = &quot;externo&quot;, &quot;externo&quot;,&#xA;    IIF(IsNull([matricula_tecnico_instalacao]), NULL(),&#xA;        IIF(REGEX_Match([matricula_tecnico_instalacao], &quot;[a-zA-Z0-9]+&quot;), &quot;interno&quot;, [matricula_tecnico_instalacao])&#xA;    )&#xA;)" field="matricula_tecnico_instalacao" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>matricula_tecnico_instalacao = IIF([matricula_tecnico_instalacao] = "externo", "...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Fluxo_Vtal</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3e4d2019-7da2-48c0-a2dd-c85d25c9906d" />
+      <Telemetry>
+        <PreviousWorkflowId value="9924404a-4b80-43bf-8fe0-7b05eacde4b0" />
+        <OriginWorkflowId value="9924404a-4b80-43bf-8fe0-7b05eacde4b0" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
